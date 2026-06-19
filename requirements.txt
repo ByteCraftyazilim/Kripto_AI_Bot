@@ -1,0 +1,7 @@
+# M5 Bot — sadece gerekli bağımlılıklar
+ccxt>=4.3.0          # Binance veri çekme (OHLCV)
+pandas>=2.0.0        # veri işleme
+numpy>=1.26.0        # hesaplama
+pyyaml>=6.0          # config.yaml
+requests>=2.31.0     # canlı fiyat (mark-to-market)
+streamlit>=1.35.0    # canlı dashboard arayüzü

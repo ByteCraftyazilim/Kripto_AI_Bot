@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Runtime — repoya gitmesin (her deploy taze başlasın)
+live/state/
+logs/
+.ohlcv_cache/
+*.db
+dashboard/bot_state.db
+
+# Sırlar
+.env
+*.pem
+
+# OS
+.DS_Store
