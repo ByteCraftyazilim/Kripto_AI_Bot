@@ -1,11 +1,11 @@
-# M5 Bot — Tek Model Paket (vedat)
+# Kripto_AI_Bot — M5 Trend-Takip Botu
 
 Bu paket **sadece M5 botunu** çalıştırır. Kripto trend-takip botu + Binance veri çekme +
 backtest + canlı paper-trading + dashboard arayüzü içerir. **Pushlandığında yalnız M5 koşar.**
 
 ## İçindekiler
 ```
-vedat/
+Kripto_AI_Bot/
 ├── crypto_portfolio_test.py   # Ana motor: Binance veri çekme + backtest + M5 stratejisi
 ├── strategy/                  # Strateji modülleri (trend-following, regime, coin seçimi, WFO)
 ├── indicators/                # Teknik indikatörler (EMA, ADX, RSI, ATR...)
@@ -30,7 +30,7 @@ vedat/
 
 ### Hızlı (AWS / Ubuntu)
 ```bash
-cd vedat
+cd Kripto_AI_Bot
 chmod +x start.sh
 ./start.sh          # venv kurar, botu + dashboard'ı screen'de başlatır
 ```
@@ -64,3 +64,11 @@ Agresif adaptif trend-takip modeli (15m, spot):
 - Paper-trade (sanal sermaye) — gerçek emir göndermez.
 - `--fresh` state'i sıfırlar; dikkatli kullan.
 - Tek model: bu pakette M4/M6/M7/M9/ORTAK YOK, sadece M5.
+
+## Lisans
+
+Copyright (c) 2026 Vedat Ayaz, Hüseyin Berk Emir. Tüm hakları saklıdır.
+
+Bu proje proprietary'dir; kaynak kodu yalnızca inceleme amacıyla herkese açıktır.
+Telif hakkı sahiplerinin yazılı izni olmadan kullanım, kopyalama, değiştirme veya
+dağıtım kesinlikle yasaktır. Ayrıntılar için [LICENSE](LICENSE) dosyasına bakın.
